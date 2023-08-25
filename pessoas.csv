@@ -1,0 +1,5 @@
+nome,id,idade,departamento,gosta_de_pizza
+James,001,22,vendas,True
+John,002,28,engenharia,False
+Jessica,003,25,programacao,True
+Monica,004,29,contabilidade,False
