@@ -4,10 +4,10 @@ import json
 '''
 EXEMPLO 1
 '''
-#producer = KafkaProducer(bootstrap_servers=['localhost:9092'])
+producer = KafkaProducer(bootstrap_servers=['localhost:9092'])
 ## Asynchronous by default
-#producer.send('aula-bigdata', b'envio de bytes')
-#producer.close()
+producer.send('aula-bigdata', b'envio de bytes')
+producer.close()
 
 '''
 EXEMPLO 2
